@@ -1,5 +1,40 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+ html, body {
+   width: 100%;
+   height: 100%;
+ }
+#root {
+  height: 100%;
+}
 .App {
+  height: 100%;
   text-align: center;
+  padding-top: 20px;
+}
+
+@keyframes colorTransition {
+  0% {
+    color: var(--cyan);
+  }
+  20% {
+    color: var(--pink);
+  }
+  40% {
+    color: var(--green);
+  }
+  60% {
+    color: var(--yellow);
+  }
+  80% {
+    color: var(--blue);
+  }
+  100% {
+    color: var(--cyan);
+  }
+}
+
+.winner {
+  animation: 5s colorTransition infinite reverse;
 }
 
 .App-logo {
