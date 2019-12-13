@@ -48,10 +48,10 @@ const PLAYER_TYPES = {
 };
 
 const PLAYERS = [{
-  name: 'David',
-  type: PLAYER_TYPES.USER
+  name: 'Computer 1',
+  type: PLAYER_TYPES.COMPUTER
 }, {
-  name: 'Computer',
+  name: 'Computer ',
   type: PLAYER_TYPES.COMPUTER
 }];
 
